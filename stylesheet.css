@@ -23,7 +23,7 @@ body {
 }
 
 .white-background {
-    animation: fade 5s ease-in;
+    animation: fade 5s linear;
     background-color: white;
 }
 
