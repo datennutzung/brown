@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+#brown-square {
+    background-color: #794102;
+    height: 15rem;
+    width: 15rem;
+    position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#black-square {
+    background-color: black;
+    height: 20rem;
+    width: 20rem;
+    position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.white-background {
+    animation: fade 5s ease-in;
+    background-color: white;
+}
+
+  @keyframes fade {
+    0%   { background-color: black; }
+    100% { background-color: white; }
+  }
