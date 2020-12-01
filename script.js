@@ -2,8 +2,6 @@ var body = document.body;
 var black_square = document.getElementById("black-square");
 var elem = document.documentElement;
 
-reset();
-
 function hide_black_square() {
     window.addEventListener('click', function() {fade_to_white()}, once=true);
     black_square.hidden = true;
@@ -22,3 +20,6 @@ function reset() {
     body.classList.remove('white-background');
     window.addEventListener('click', function() {hide_black_square()}, once=true);
 }
+
+// reset at the start of the program 
+reset();
